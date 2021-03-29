@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8" />
+
+		<link rel='stylesheet' href='index.css' />
+		<link rel="icon" href="%PUBLIC_URL%/logo.png" />
+		<link rel="preconnect" href="https://fonts.gstatic.com">
+		<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;500;600;700&display=swap" rel="stylesheet">
+
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<meta
+			name="description"
+			content="App de localização de lojas e parceiros Munddi"
+		/>
+
+		<title> Munddi Store Finder JS </title>
+	</head>
+
+	<body>
+		<div id="munddi-app">
+
+			<section class='app-header'></section>
+
+			<section class='app-google-map'></section>
+
+		</div>
+
+		<script async src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCKc8pPsDZnv6A7w0j2GYcuJZdCe_qEdps&callback=initMap"></script>
+		<script src="components/google-map/google-map.component.js"></script>
+		<script src="components/header/header.component.js"></script>
+	</body>
+
+</html>

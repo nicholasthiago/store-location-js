@@ -1,0 +1,97 @@
+/* ------------------- */
+
+/* --- Basic Rules -------- */
+
+	body {
+		margin: 0;
+		padding: 12vh 0 0;
+		background: #FAFAFA;
+	}
+
+	body * {
+		max-width: 100%;
+		max-height: 100%;
+		font-family: 'Montserrat',sans-serif;
+	}
+
+	a, a:visited {
+		color: #565656;
+		font-size: 14px;
+		font-weight: 500;
+		text-transform: uppercase;
+		text-decoration: none; 
+		transition: 0.4s;
+	}
+
+	a:hover {
+		color: #48c741;
+	}
+
+	#munddi-app {
+		display: flex;
+		flex-flow: column nowrap;
+		align-items: center;
+		justify-content: center;
+	}
+
+/* --- Basic Rules -------- */
+
+/* --- App Header Rules --- */
+
+	#munddi-app .app-header {
+		width: 100vw;
+		background: #FAFAFA;
+		box-shadow: 0px 2px 8px #00000024;
+
+		position: fixed;
+		left: 0;
+		top: 0;
+
+		display: flex;
+		flex-flow: column nowrap;
+		align-items: center;
+		justify-content: center;
+	}
+
+	#munddi-app .app-header .app-header-core {
+		width: 90vw;
+		height: 12vh;
+
+		display: grid;
+		align-items: center;
+		justify-content: center;
+		grid-template-columns: 2fr 3fr;
+	}
+
+	#munddi-app .app-header .app-header-core .app-header-menu {
+		display: flex;
+		flex-flow: row nowrap;
+		align-items: center;
+		justify-content: space-between;
+	}
+
+	.app-header a:last-child {
+		color: #FAFAFA;
+		margin: 0 0 0 2em;
+		padding: 12px 32px;
+		background: #48c741;
+		border-radius: 32px;
+		transition: 0.4s;
+	}
+
+	.app-header a:last-child:hover {
+		transform: translateY(-4px);
+		box-shadow: 0px 4px 8px #00000048;
+	}
+
+/* --- App Header Rules --- */
+
+/* --- Google Map Rules --- */
+
+	#munddi-app .app-google-map {
+		width: 80vw;
+		height: 64vh;
+		margin: 24px 0 24px;
+	}
+
+/* --- Google Map Rules --- */
