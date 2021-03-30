@@ -94,4 +94,8 @@
 		margin: 24px 0 24px;
 	}
 
+	#munddi-app .app-google-map img {
+		max-height: none;
+	}
+
 /* --- Google Map Rules --- */
